@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "public": true,
+  "github": {
+    "silent": true
+  },
+  "buildCommand": "echo 'Static site deployment'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No install needed'",
+  "devCommand": "python3 -m http.server 8000",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+} 
