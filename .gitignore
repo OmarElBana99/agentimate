@@ -1,5 +1,35 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
+Thumbs.db
 
+# Development files
 *.log
+*.lock
 
-node_modules
+# Unnecessary build files
+rollup.config.js
+babel.config.json
+tsconfig.json
+tests/
+src/
+.github/
+
+# Keep only essential files for deployment
+# - index.html
+# - animations.js
+# - lib/anime.esm.js
+# - vercel.json
+# - package.json
